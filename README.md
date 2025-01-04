@@ -80,7 +80,7 @@ Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu 
 3. **Jalankan Jupyter Notebook**  
    Buka file notebook untuk memulai analisis:
    ```
-   jupyter notebook analisisbigdata.ipynb
+   jupyter notebook FinalProject_AnalisisBigData.ipynb
    ```
 4. **Dataset**  
    Pastikan file `spotify.csv` berada di direktori yang sama dengan notebook.
