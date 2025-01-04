@@ -3,8 +3,6 @@
 
 ![Spotify Logo](https://github.com/user-attachments/assets/7d8f77ba-7cb4-4b47-88f7-51db642ece44)
 
-# <center>Mendalami Beragam Wawasan Musik di Spotify</center>
-
 ## **Daftar Isi**
 1. [**Gambaran Umum**](#Gambaran-Umum)
 2. [**Tujuan**](#Tujuan)
