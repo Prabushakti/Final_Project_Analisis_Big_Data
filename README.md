@@ -1,126 +1,113 @@
-# **<center>Project Akhir Analisis Big Data</center>**
 
-![spotify-icon-1024x1024-b709ug61](https://github.com/user-attachments/assets/7d8f77ba-7cb4-4b47-88f7-51db642ece44)
+# **<center>Proyek Akhir: Analisis Big Data</center>**
 
+![Spotify Logo](https://github.com/user-attachments/assets/7d8f77ba-7cb4-4b47-88f7-51db642ece44)
 
+# <center>Mendalami Beragam Wawasan Musik di Spotify</center>
 
-# <center>Jelajahi dan Dapatkan Berbagai Macam Pengetahuan Mendalam Tentang Musik di Spotify </center>
-
-## **Table of Contents**
-1. [**Overview**](#Overview)
-2. [**Objective**](#Objective)
-3. [**Dataset**](#Dataset)
-4. [**Methodology**](#Methodology)
-5. [**Insights**](#Insights)
-6. [**Dependencies**](#Dependencies)
-7. [**Usage**](#Usage)
-8. [**Team Members**](#Team-Members)
-9. [**Repository Structure**](#Repository-Structure)
-10. [**References**](#References)
-
-
-## **Overview**
-Proyek ini akan memberikan wawasan tentang bagaimana data besar dari Spotify dapat digunakan untuk memahami pola musik dan preferensi pengguna. Dengan menggunakan alat analisis big data, mahasiswa akan memperoleh pengalaman langsung dalam memproses, menganalisis, dan memvisualisasikan data kompleks dari dunia nyata.
+## **Daftar Isi**
+1. [**Gambaran Umum**](#Gambaran-Umum)
+2. [**Tujuan**](#Tujuan)
+3. [**Deskripsi Dataset**](#Deskripsi-Dataset)
+4. [**Metodologi**](#Metodologi)
+5. [**Hasil Analisis**](#Hasil-Analisis)
+6. [**Ketergantungan**](#Ketergantungan)
+7. [**Panduan Penggunaan**](#Panduan-Penggunaan)
+8. [**Anggota Tim**](#Anggota-Tim)
+9. [**Struktur Repositori**](#Struktur-Repositori)
+10. [**Referensi**](#Referensi)
 
 ---
 
-## **Objective**
-
-Proyek ini bertujuan untuk mengeksplorasi pola dan tren dalam dataset lagu yang ada pada platform Spotify. Fokus utamanya adalah untuk:
-
-1. Menganalisis korelasi antara fitur audio (seperti danceability, energy, acousticness) dengan genre musik.
-
-2. Mengidentifikasi genre dan karakteristik yang dominan dalam playlist tertentu serta menganalisis faktor-faktor yang mempengaruhi popularitas lagu di platform Spotify.
+## **Gambaran Umum**
+Proyek ini dirancang untuk memberikan pemahaman mendalam tentang bagaimana data Spotify dapat dimanfaatkan untuk menganalisis pola musik dan preferensi pengguna. Dengan menggunakan alat analitik big data, peserta proyek dapat mempelajari cara memproses, menganalisis, dan memvisualisasikan dataset besar yang berasal dari kasus nyata.
 
 ---
 
-## **Dataset**
+## **Tujuan**
+Proyek ini bertujuan untuk:
+1. Mengidentifikasi hubungan antara atribut audio (seperti danceability, energy, dan acousticness) dengan genre musik tertentu.
+2. Menemukan genre dan karakteristik audio yang dominan dalam berbagai playlist.
+3. Menganalisis faktor-faktor yang memengaruhi popularitas lagu di platform Spotify.
 
-Dataset berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tidytuesday) dan dikumpulkan menggunakan paket [`spotifyr`](https://github.com/charlie86/spotifyr). Data dirilis pada **21 Januari 2020** dan dapat diakses melalui tautan berikut:  
+---
+
+## **Deskripsi Dataset**
+Dataset digunakan berasal dari proyek [TidyTuesday](https://github.com/rfordatascience/tidytuesday), yang datanya diperoleh menggunakan pustaka [`spotifyr`](https://github.com/charlie86/spotifyr). Dataset ini dirilis pada **21 Januari 2020** dan dapat diakses melalui tautan berikut:  
 [spotify_songs.csv](https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-21/spotify_songs.csv).
 
-Paket `spotifyr` digunakan untuk mendapatkan metadata lagu dari API Spotify, mencakup informasi seperti popularitas lagu, nama artis, album, genre, serta atribut audio (danceability, energy, valence, dll.).
-
-### Variabel dalam Dataset:
-Dataset ini terdiri dari 19 variabel, termasuk:
-- `track_id`, `track_name`, `track_artist`: Identifikasi dan informasi dasar mengenai lagu.
-- `track_popularity`: Popularitas lagu berdasarkan nilai antara 0-100.
-- `playlist_name`, `playlist_genre`: Nama playlist dan genre playlist terkait.
-- `danceability`, `energy`, `acousticness`, dan lainnya: Atribut audio yang menggambarkan karakteristik musik lagu seperti keterpaduan untuk berdansa, energi, keaslian suara, dan lainnya.
+### Detail Variabel Dataset:
+Dataset ini mencakup 19 variabel, di antaranya:
+- `track_id`, `track_name`, `track_artist`: Informasi identifikasi lagu.
+- `track_popularity`: Skor popularitas lagu dengan rentang 0-100.
+- `playlist_name`, `playlist_genre`: Nama dan genre playlist terkait.
+- Atribut audio seperti `danceability`, `energy`, `acousticness`, yang mendeskripsikan karakteristik musik, seperti tingkat energi dan keselarasan untuk menari.
 
 ---
 
-## **Methodology**
-
-1. Data import and cleaning.
-2. Exploratory Data Analysis (EDA).
-3. Optional: Advanced analysis KNN untuk song recommendation system
-
----
-
-## **Insights**
-
+## **Metodologi**
+1. Mengimpor dan membersihkan data.
+2. Melakukan Analisis Data Eksploratif (EDA).
+3. (Opsional) Implementasi sistem rekomendasi lagu menggunakan KNN berdasarkan atribut audio.
 
 ---
 
-### **Dependencies**
-Proyek ini menggunakan beberapa dependensi untuk menjalankan analisis. Berikut adalah daftar dependensi yang diperlukan:
-
-pandas, versi 1.4.3
-numpy, versi 1.23.0
-matplotlib, versi 3.5.2
-
-Catatan: Belum diuji sepenuhnya, namun bisa digunakan di lingkungan Python.
+## **Hasil Analisis**
+Hasil analisis akan mencakup wawasan tentang pola musik, preferensi genre, dan hubungan antara atribut audio dengan popularitas lagu.
 
 ---
 
-## **Usage**
-1. Clone Repository
-Clone repository ini :
-    
-    ```
-    git clone https://github.com/Hazarddrips/Proyek_Akhir_Analisis_Big_Data.git
-    ```
-    ```
-    cd Proyek_Akhir_Analisis_Big_Data
-    ```
-2. Install Dependencies
-Install paket yang dibutuhkan:
-    ```
-    pip install -r requirements.txt
-    ```
-3. Jalankan Jupyter Notebook
-Buka file analisisbigdata.ipynb dengan Jupyter:
-    ```
-    jupyter notebook analisisbigdata.ipynb
-    ```
-4. Dataset
-Pastikan file `spotify_songs.csv` ada di direktori yang sama dengan notebook.
+## **Ketergantungan**
+Proyek ini memerlukan beberapa pustaka Python untuk dijalankan, yaitu:
+- `pandas` versi 1.4.3
+- `numpy` versi 1.23.0
+- `matplotlib` versi 3.5.2
 
-5. Jelajahi Analisis
-Ikuti langkah-langkah di notebook untuk pembersihan dan analisis data.
+Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu disesuaikan dengan lingkungan Python masing-masing.
 
 ---
 
-## **Team Members**
-
-   * [Taufik Suryo Abintoro](https://github.com/) 
-   * [Febriansyah Ilham Nur Wakit](https://github.com/) 
-   * [Haidar Zakki Jumali](https://github.com/) 
+## **Panduan Penggunaan**
+1. **Klon Repositori**  
+   Salin repositori ke direktori lokal:
+   ```
+   git clone https://github.com/Hazarddrips/Proyek_Akhir_Analisis_Big_Data.git
+   cd Proyek_Akhir_Analisis_Big_Data
+   ```
+2. **Instalasi Pustaka**  
+   Instal semua dependensi yang diperlukan:
+   ```
+   pip install -r requirements.txt
+   ```
+3. **Jalankan Jupyter Notebook**  
+   Buka file notebook untuk memulai analisis:
+   ```
+   jupyter notebook analisisbigdata.ipynb
+   ```
+4. **Dataset**  
+   Pastikan file `spotify_songs.csv` berada di direktori yang sama dengan notebook.
+5. **Eksplorasi**  
+   Ikuti langkah-langkah dalam notebook untuk menganalisis data.
 
 ---
 
-## **Repository Structure**
-- `spotify_songs.csv`: Dataset berisi data lagu-lagu Spotify, termasuk informasi seperti nama lagu, artis, genre, durasi, dan metrik lainnya yang digunakan untuk analisis.
-- `.ipynb`: Jupyter Notebook yang berisi langkah-langkah analisis data, mulai dari pembersihan data hingga eksplorasi dan visualisasi untuk menemukan wawasan yang relevan dari dataset.
-- `README.md`: Pengantar dan gambaran umum proyek, termasuk instruksi penggunaan, tujuan analisis, serta bagaimana cara menjalankan dan mereplikasi analisis ini.
+## **Anggota Tim**
+- [Prabu Shakti](https://github.com/)
+- [Muhammad Fauzan Adzyma Hele](https://github.com/)
+
 ---
 
-## **References**
+## **Struktur Repositori**
+- **`spotify_songs.csv`**: Dataset utama dengan informasi detail mengenai lagu Spotify.
+- **Notebook `.ipynb`**: Berisi langkah-langkah analisis data, pembersihan, dan visualisasi.
+- **`README.md`**: Pengantar proyek dengan penjelasan tujuan, penggunaan, dan langkah analisis.
+
+---
+
+## **Referensi**
 - Dataset: [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-- Additional Resources: 
-    * https://github.com/SPARC-FAIR-Codeathon/QuiltedTutorials
-    * https://github.com/SPARC-FAIR-Codeathon/KnowMore
-
+- Sumber tambahan:
+  - [SPARC Tutorials](https://github.com/SPARC-FAIR-Codeathon/QuiltedTutorials)
+  - [KnowMore Guide](https://github.com/SPARC-FAIR-Codeathon/KnowMore)
 
 ---
