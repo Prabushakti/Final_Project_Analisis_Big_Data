@@ -97,7 +97,7 @@ Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu 
 
 ## **Struktur Repositori**
 - **`spotify.csv`**: Dataset utama dengan informasi detail mengenai lagu Spotify.
-- **Notebook `.ipynb`**: Berisi langkah-langkah analisis data, pembersihan, dan visualisasi.
+- **Notebook `FinalProject_AnalisisBigData.ipynb`**: Berisi langkah-langkah analisis data, pembersihan, dan visualisasi.
 - **`README.md`**: Pengantar proyek dengan penjelasan tujuan, penggunaan, dan langkah analisis.
 
 ---
