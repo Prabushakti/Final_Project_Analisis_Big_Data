@@ -83,7 +83,7 @@ Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu 
    jupyter notebook analisisbigdata.ipynb
    ```
 4. **Dataset**  
-   Pastikan file `spotify_songs.csv` berada di direktori yang sama dengan notebook.
+   Pastikan file `spotify.csv` berada di direktori yang sama dengan notebook.
 5. **Eksplorasi**  
    Ikuti langkah-langkah dalam notebook untuk menganalisis data.
 
