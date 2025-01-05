@@ -108,3 +108,5 @@ Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu 
   - [KnowMore Guide](https://github.com/SPARC-FAIR-Codeathon/KnowMore)
 
 ---
+
+## **HASIL DAN PENJELASAN DARI PENELITIAN INI ADA DI DALAM FILE FinalProject_AnalisisBigData.ipynb DAN ASSETS**
