@@ -69,8 +69,7 @@ Catatan: Pustaka ini telah diuji untuk mendukung analisis, meskipun masih perlu 
 1. **Klon Repositori**  
    Salin repositori ke direktori lokal:
    ```
-   git clone https://github.com/Hazarddrips/Proyek_Akhir_Analisis_Big_Data.git
-   cd Proyek_Akhir_Analisis_Big_Data
+   git clone https://github.com/Prabushakti/Final_Project_Analisis_Big_Data.git
    ```
 2. **Instalasi Pustaka**  
    Instal semua dependensi yang diperlukan:
